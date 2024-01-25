@@ -1,6 +1,6 @@
 // Define _measure library
 var _measure = (function() {
-    var endpoint = "CF_URL";
+    var endpoint = "https://europe-west1-measure-js.cloudfunctions.net/tracker/events";
   
     // Function to send data to the endpoint
     function sendData(data) {
