@@ -1,6 +1,6 @@
 // Define _measure library
 var _measure = (function() {
-    var endpoint = "{{ endpoint }}";
+    var endpoint = "CF_URL";
   
     // Function to send data to the endpoint
     function sendData(data) {
